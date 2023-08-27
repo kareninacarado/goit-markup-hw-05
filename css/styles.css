@@ -444,6 +444,7 @@ img {
     justify-content: center;
     background-color: var(--iriscolor);
     color: var(--cloudcolor);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:hover, 
@@ -505,6 +506,8 @@ img {
     justify-content: center;
     align-items: center;
     color: #8e8f99;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-link:hover,
@@ -813,8 +816,7 @@ img {
     border-radius: 15px;
     cursor: pointer;
   
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .modal-close-icon {
@@ -824,7 +826,7 @@ img {
   .modal-close:hover,
   .modal-close:focus {
     background-color: var(--oceancolor);
-    color: var(--white);
+    color: white;
   }
   
   .is-hidden {
