@@ -33,7 +33,7 @@
     </nav>
 
     <address class="header-contacts">
-        <ul class="header-contacts-list lists">
+        <ul class="header-contacts list">
             <li class="header-contacts-item">
                 <a class="header-contacts-link links" href="mailto:info@devstudio.com" target="_blank" rel="noopener noreferrer">info@devstudio.com</a>
             </li>
@@ -42,13 +42,14 @@
             </li>
         </ul>
     </address>
-    </header>
-    <main>
+  </div>
+ </header>
+
         <!--section 1-->
         <section class="hero hero-section">
             <div class="container hero-container">
                 <h1 class="hero-title">Effective Solutions <br>for Your Business</h1>
-                <button class="hero-button button" type="button">Order Service</button>
+                <button class="hero-button button" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
 
@@ -389,7 +390,7 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
                 <svg class="modal-close-icon" width="8" height="8">
